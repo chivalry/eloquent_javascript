@@ -10,7 +10,7 @@ const range = function(start, end, step=1) {
         buf.push(i);
     }
     return buf;
-}
+};
 
 const sum = function(nums) {
     let sm = 0;
@@ -18,7 +18,7 @@ const sum = function(nums) {
         sm += num;
     }
     return sm;
-}
+};
 
 console.log(range(1, 10));
 console.log(range(5, 1, -1));

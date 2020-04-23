@@ -9,7 +9,7 @@ const isEven = function(num) {
         return false;
     }
     return isEven(num - 2);
-}
+};
 
 console.log(isEven(50));
 console.log(isEven(75));

@@ -5,4 +5,5 @@ for (let i = 1; i <= 8; i++) {
     }
     buf += '\n';
 }
+
 console.log(buf)
